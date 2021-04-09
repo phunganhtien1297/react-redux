@@ -1,0 +1,13 @@
+ul.hobby-list {
+ text-align: center;
+}
+
+ul.hobby-list > li {
+    cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
+    list-style-type: none;
+}
+
+ul.hobby-list > li.active{
+    color: red;
+}
